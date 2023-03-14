@@ -183,6 +183,7 @@ button {
     margin-right: 20px;
     cursor: pointer;
 }
-button:hover {
+button:hover,
+button:focus {
     background: linear-gradient(to bottom, var(--light-slate-blue), var(--light-royal-blue));
 }
